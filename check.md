@@ -116,7 +116,7 @@ iems
 - df -k
 - ps -ef
 - cat /var/log/messages
-- netstat -a
+- netstat -an
 - ifconfig -a
 - ntpq -p / ntpstat / ps -ef | grep ntp / ntpq -vqp
 - ps -ef | grep oracle
