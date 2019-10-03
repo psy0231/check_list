@@ -118,7 +118,7 @@ iems
 - cat /var/log/messages
 - netstat -an
 - ifconfig -a
-- ntpq -p / ntpstat / ps -ef | grep ntp / ntpq -vqp
+- ntpq -p / ntpstat / ps -ef | grep ntp 
 - ps -ef | grep oracle
 - cat /oracle/product/11.2.0/db/network/log/sqlnet.log
 - date
