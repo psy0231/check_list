@@ -161,7 +161,7 @@ nms(act)
     - SELECT USERNAME FROM DBA_USERS;
     - SELECT USERNAME, SCCOUNT_STATUS FROM DBA_USERS;
 - ps -ef | grep java
-- cat app-sem.log
+- cat /home2/trs_nms/log/app-sem.log
 - client
     - 초기 화면
     - 서버모니터링
