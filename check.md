@@ -156,7 +156,7 @@ nms(std)
 nms(act)
 ---
 - ps -ef | grep oracle
-- cat /oracle/product/11.2.0/db/network/log/sqlnet.log
+- cat /oracle/product/10.2.0/db_1/network/log/sqlnet.log
 - su - oracle (sqlplus '/as sysdba')
     - SELECT USERNAME FROM DBA_USERS;
     - SELECT USERNAME, SCCOUNT_STATUS FROM DBA_USERS;
