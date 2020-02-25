@@ -141,7 +141,7 @@ common
 - ps -ef
 - df -k
 - cat /var/adm/messages
-- netstat -a
+- netstat -an
 - ifconfig -a
 - ps -ef | grep ntp / ntpq -p
 - date
@@ -173,6 +173,7 @@ nms(act)
 
 Disk Array
 ==============================================================
+- /usr/sbin sccli
 - show cache-parameters / show logical-drives
 - show peripheral-device-status
 - show frus
